@@ -85,13 +85,13 @@ html {
 }
 
 @keyframes bgSlideshow {
-  0% { background-image: url('images/1.jpg'); }
-  16% { background-image: url('images/3.jpg'); }
-  33% { background-image: url('images/5.jpg'); }
-  50% { background-image: url('images/7.jpg'); }
-  66% { background-image: url('images/9.jpg'); }
-  83% { background-image: url('images/11.jpg'); }
-  100% { background-image: url('images/1.jpg'); }
+  0% { background-image: url('1.jpg'); }
+  16% { background-image: url('3.jpg'); }
+  33% { background-image: url('5.jpg'); }
+  50% { background-image: url('7.jpg'); }
+  66% { background-image: url('9.jpg'); }
+  83% { background-image: url('11.jpg'); }
+  100% { background-image: url('1.jpg'); }
 }
 
 .hero .overlay {
@@ -190,7 +190,7 @@ html {
    Contact / Visit Us (with background image 13.jpg)
 ========================= */
 #contact {
-  background: url('images/13.jpg') center center / contain no-repeat;
+  background: url('13.jpg') center center / contain no-repeat;
   background-color: #000;
   color: white;
   padding: 120px 30px;
@@ -360,3 +360,4 @@ footer {
   font-size: 1.6rem;
   color: #1a1a1a;
 }
+
