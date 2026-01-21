@@ -18,6 +18,47 @@ html {
   scroll-behavior: smooth;
 }
 
+/* MOBILE HEADER FIX */
+@media (max-width: 768px) {
+
+  header {
+    padding: 10px 15px;
+  }
+
+  .logo {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+  }
+
+  .logo span,
+  .logo br {
+    display: none;
+  }
+
+  .logo::after {
+    content: "B & D Beauty Hair Salon | Hong Kong";
+    display: block;
+    font-size: 18px;
+    color: #d4af37; /* gold */
+    font-weight: bold;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+
+  nav a {
+    font-size: 14px;
+  }
+}
+
+
 /* =========================
    Navigation
 ========================= */
@@ -360,4 +401,5 @@ footer {
   font-size: 1.6rem;
   color: #1a1a1a;
 }
+
 
